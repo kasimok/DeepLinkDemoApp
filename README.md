@@ -1,4 +1,4 @@
 # DeepLinkDemoApp
 
-demo of goto settings
+## demo of goto settings
 ![Demo](./demo.gif)
