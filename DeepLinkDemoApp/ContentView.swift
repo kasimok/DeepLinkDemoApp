@@ -6,11 +6,11 @@ struct ContentView: View {
     var body: some View {
       Form {
         
-        Link("Setting Safari", destination: URL(string: "App-prefs:Safari")!)
+        Link("Setting Safari", destination: URL(string: "App-Prefs:Safari")!)
        
-        Link("Extension Settings Safari", destination: URL(string: "App-prefs:Safari&path=WEB_EXTENSIONS")!)
+        Link("Extension Settings Safari", destination: URL(string: "App-Prefs:Safari&path=WEB_EXTENSIONS")!)
         
-        Link("iCloud Account", destination: URL(string: "App-prefs:APPLE_ACCOUNT")!)
+        Link("iCloud Account", destination: URL(string: "App-Prefs:APPLE_ACCOUNT")!)
 
       }
       .onAppear {
