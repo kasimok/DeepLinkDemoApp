@@ -12,7 +12,7 @@ struct ContentView: View {
                 
                 Link("Setting Safari", destination: URL(string: "App-Prefs:com.apple.mobilesafari")!)
                 
-                Link("Extension Settings Safari", destination: URL(string: "App-Prefs:com.apple.mobilesafari&path=WEB_EXTENSIONS")!)
+                Link("Extension Settings Safari", destination: URL(string: "App-Prefs:com.apple.mobilesafari/WEB_EXTENSIONS")!)
                 
                 Link("iCloud Account", destination: URL(string: "App-Prefs:APPLE_ACCOUNT")!)
                 
